@@ -8,10 +8,22 @@ public class Controller {
 
 
 
+    @FXML
+    public void joinClicked(){
+        Main.hasCompetition = true;
+        Main.changeToScene("ActiveCompetition.fxml");
+    }
+
+
+
 
     @FXML
+    public void backClicked(){
+        Main.changeToScene(Main.lastStage);
+    }
+    @FXML
     public void competitionClicked(){
-        Main.changeToScene("ActiveCompetition.fxml");
+        Main.changeToScene("showCompetitions.fxml");
 
     }
 
@@ -31,6 +43,8 @@ public class Controller {
 
     @FXML
     public void leaveClicked(){
+        Main.hasCompetition= false;
+        Main.changeToScene("showCompetitions.fxml");
 
     }
 
@@ -55,6 +69,7 @@ public class Controller {
 
     @FXML
     public void indexClicked(){
+        System.out.println("clicked");
         if(Main.hasCompetition){
             Main.changeToScene("menu.fxml");
         }else{

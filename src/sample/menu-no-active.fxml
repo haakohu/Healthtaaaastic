@@ -17,7 +17,7 @@
                 <Image url="@img/menu-no-active.PNG" />
             </image>
         </ImageView>
-        <Button fx:id="IndexButton" layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#indexClicked" opacity="0.0" prefHeight="78.0" prefWidth="97.0" text="Button" />
+        <Button fx:id="IndexButton" layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#backClicked" opacity="0.0" prefHeight="78.0" prefWidth="97.0" text="Button" />
       <Button layoutX="25.0" layoutY="111.0" mnemonicParsing="false" onAction="#dashboardClicked" opacity="0.0" prefHeight="44.0" prefWidth="441.0" text="Button" />
       <Button layoutX="32.0" layoutY="234.0" mnemonicParsing="false" onAction="#competitionsClicked" opacity="0.0" prefHeight="44.0" prefWidth="433.0" text="Button" />
       <Button layoutX="25.0" layoutY="298.0" mnemonicParsing="false" onAction="#usersClicked" opacity="0.0" prefHeight="51.0" prefWidth="441.0" text="Button" />
