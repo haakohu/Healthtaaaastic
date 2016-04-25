@@ -23,8 +23,16 @@ public class Controller {
     }
     @FXML
     public void competitionClicked(){
-        Main.changeToScene("showCompetitions.fxml");
+        if(Main.hasCompetition){
+            Main.changeToScene("showCompetition-active.fxml");
+        }else{
+            Main.changeToScene("showCompetition.fxml");
+        }
+    }
 
+    @FXML
+    public void activeCompetitionClicked(){
+        Main.changeToScene("ActiveCompetition.fxml");
     }
 
     @FXML
@@ -44,7 +52,7 @@ public class Controller {
     @FXML
     public void leaveClicked(){
         Main.hasCompetition= false;
-        Main.changeToScene("showCompetitions.fxml");
+        Main.changeToScene("showCompetition.fxml");
 
     }
 

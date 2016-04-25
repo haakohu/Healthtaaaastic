@@ -14,7 +14,7 @@
     <children>
         <ImageView fitHeight="800.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@img/ShowCompetitions.PNG" />
+                <Image url="@img/ShowCompetition.PNG" />
             </image>
         </ImageView>
         <Button fx:id="IndexButton" layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#indexClicked" opacity="0.0" prefHeight="78.0" prefWidth="97.0" text="Button" />

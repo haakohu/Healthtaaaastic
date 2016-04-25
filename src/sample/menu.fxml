@@ -19,7 +19,7 @@
         </ImageView>
         <Button layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#backClicked" opacity="0.0" prefHeight="78.0" prefWidth="97.0" text="Button" />
       <Button layoutX="25.0" layoutY="109.0" mnemonicParsing="false" onAction="#dashboardClicked" opacity="0.0" prefHeight="45.0" prefWidth="444.0" text="Button" />
-      <Button layoutX="25.0" layoutY="172.0" mnemonicParsing="false" onAction="#competitionClicked" opacity="0.0" prefHeight="45.0" prefWidth="444.0" text="Button" />
+      <Button layoutX="25.0" layoutY="172.0" mnemonicParsing="false" onAction="#activeCompetitionClicked" opacity="0.0" prefHeight="45.0" prefWidth="444.0" text="Button" />
       <Button layoutX="25.0" layoutY="236.0" mnemonicParsing="false" onAction="#competitionsClicked" opacity="0.0" prefHeight="45.0" prefWidth="444.0" text="Button" />
       <Button layoutX="25.0" layoutY="304.0" mnemonicParsing="false" onAction="#usersClicked" opacity="0.0" prefHeight="45.0" prefWidth="444.0" text="Button" />
       <Button layoutX="25.0" layoutY="368.0" mnemonicParsing="false" onAction="#healthDataClicked" opacity="0.0" prefHeight="45.0" prefWidth="444.0" text="Button" />
